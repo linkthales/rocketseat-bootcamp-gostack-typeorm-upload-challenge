@@ -74,6 +74,7 @@ transactionsRouter.post(
           value: transaction.value,
           category: transaction.category_id,
         });
+
         return callback(null, newTransaction);
       },
     );
